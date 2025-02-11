@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Nutrition Website: Home Page</title>
+    <link rel="stylesheet" href="help.css">
+</head>
+
+<body>
+    <div id="main">
+        <header id="header">
+            <h1>Health & Nutrition Website</h1>
+        </header>
+
+        <nav id="social">
+            <a href="https://discord.com">
+                <img src="/images/discord.jpg" alt="Discord">
+            </a>
+            <a href="https://youtube.com">
+                <img src="/images/youtube.jpg" alt="YouTube">
+            </a>
+            <a href="https://web.snapchat.com">
+                <img src="/images/snapchat.png" alt="Snapchat">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="/images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="/images/Facebook_logo_(square).png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="/images/download.png" alt="LinkedIn">
+            </a>
+        </nav>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="healthyeating.html">Healthy Eating</a></li>
+                <li><a href="bestfood.html">Gallery</a></li>
+                <li><a href="sleepinghabits.html">Sleeping Habits</a></li>
+                <li><a href="exercise.html">Exercise</a></li>
+                <li><a class="active" href="help.html">Help</a></li>
+                <li><a href="othertopics.html">Other Topics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main id="content">
+            <section id="title">
+                <h2>Help</h2>
+            </section>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Let's get you<br> some help!</h1>
+                        <h6>Have any issue? Send us an <span class="email-us">email.</span></h6>
+                        <div class="img-wrapper">
+                            <img src="https://i.ibb.co/bWfN3Qy/undraw-onboarding-o8mv-1.png" alt="Support Illustration">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="list">What list are you looking for?</label>
+                                <input type="text" class="form-control" id="list" aria-describedby="listHelp">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="tags">Please provide the tag:</label>
+                                <input type="text" class="form-control" id="tags">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="describe">Could you please describe how we can assist you:</label>
+                                <textarea class="form-control" id="describe" rows="5"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="category">Select Category:</label>
+                                <select class="form-control" id="category">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <a href="index.html">Home</a> | <a href="healthyeating.html">Healthy Eating</a> | <a href="bestfood.html">Gallery</a> |
+            <a href="sleepinghabits.html">Sleeping Habits</a> | <a href="exercise.html">Exercise</a> |
+            <a href="help.html">Help</a> | <a href="othertopics.html">Other Topics</a> | <a href="contact.html">Contact</a>
+        </footer>
+    </div>
+</body>
+
+</html>
